@@ -1,25 +1,25 @@
-/* Selector 1 */
+
 h2 {
     color: #003366;
     text-align: center;
     font-size: 24px;
 }
 
-/* Selector 2 */
+
 .gambar {
     text-align: center;
     margin: 25px;
     padding: 10px;
 }
 
-/* Selector 3 */
+
 img {
     border: 3px solid #003366;
     border-radius: 10px;
     max-width: 100%;
 }
 
-/* Selector 4 */
+
 .informasi {
     background-color: #ffffff;
     padding: 20px;
@@ -27,14 +27,14 @@ img {
     max-width: 600px;
 }
 
-/* Selector 5 */
+
 .tautan a {
     color: #006633;
     text-decoration: none;
     font-weight: bold;
 }
 
-/* Efek ketika kursor diarahkan ke tautan */
+
 .tautan a:hover {
     color: #cc0000;
     text-decoration: underline;
