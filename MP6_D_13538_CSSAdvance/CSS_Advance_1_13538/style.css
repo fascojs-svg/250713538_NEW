@@ -1,0 +1,171 @@
+
+/* Pengaturan dasar halaman */
+body {
+    margin: 0;
+    padding: 30px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef2ff;
+    color: #263247;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px #cbd5e1;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    background-color: #4338ca;
+    border-radius: 10px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.header p {
+    margin-bottom: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #e2e8f0;
+    vertical-align: middle;
+}
+
+.label {
+    width: 35%;
+    font-weight: bold;
+    color: #3730a3;
+}
+
+.top {
+    vertical-align: top;
+}
+
+input[type="text"],
+select,
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 380px;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+input[type="file"] {
+    max-width: 100%;
+    font-size: 13px;
+}
+
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 4px #a5b4fc;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.option {
+    display: inline-block;
+    margin: 4px 12px 4px 0;
+}
+
+.option label {
+    cursor: pointer;
+}
+
+.hint {
+    margin: 5px 0 0;
+    color: #64748b;
+    font-size: 12px;
+}
+
+.submit-cell {
+    padding-top: 20px;
+    text-align: center;
+    border-bottom: none;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 11px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    color: #ffffff;
+    background-color: #4338ca;
+}
+
+input[type="submit"]:hover {
+    background-color: #312e81;
+}
+
+input[type="reset"] {
+    color: #334155;
+    background-color: #e2e8f0;
+}
+
+input[type="reset"]:hover {
+    background-color: #cbd5e1;
+}
+
+.footer {
+    margin-bottom: 0;
+    text-align: center;
+    color: #64748b;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .header h1 {
+        font-size: 22px;
+    }
+
+    td {
+        padding: 8px;
+    }
+
+    .label {
+        width: 40%;
+    }
+
+    input[type="text"],
+    select,
+    textarea {
+        max-width: 100%;
+    }
+}

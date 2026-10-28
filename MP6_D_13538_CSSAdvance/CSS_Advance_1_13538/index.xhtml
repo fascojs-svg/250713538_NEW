@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xml:lang="id" lang="id">
+<head>
+    <meta http-equiv="content-type"
+          content="text/html; charset=UTF-8" />
+    <title>Formulir Pendaftaran Lomba</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Formulir Pendaftaran Lomba</h1>
+            <p>Daftarkan tim dan tunjukkan kreativitas terbaikmu!</p>
+        </div>
+
+        <form action="" method="post" enctype="multipart/form-data">
+            <table cellspacing="0" cellpadding="10">
+                <tr>
+                    <td class="label">
+                        <label for="namatim">Nama Tim</label>
+                    </td>
+                    <td>
+                        <input type="text" id="namatim"
+                               name="namatim" size="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+                        <label for="ketua">Ketua Tim</label>
+                    </td>
+                    <td>
+                        <input type="text" id="ketua"
+                               name="ketua" size="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+                        <label for="jumlah">Jumlah Anggota</label>
+                    </td>
+                    <td>
+                        <select id="jumlah" name="jumlah">
+                            <option value="1">1 Orang</option>
+                            <option value="2">2 Orang</option>
+                            <option value="3">3 Orang</option>
+                            <option value="4">4 Orang</option>
+                            <option value="5">5 Orang</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+                        <label for="telepon">Nomor Telepon</label>
+                    </td>
+                    <td>
+                        <input type="text" id="telepon"
+                               name="telepon" size="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+                        <label for="universitas">Asal Universitas</label>
+                    </td>
+                    <td>
+                        <input type="text" id="universitas"
+                               name="universitas" size="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">Bidang Lomba</td>
+                    <td>
+                        <div class="option">
+                            <input type="checkbox" id="coding"
+                                   name="bidang" value="Coding" />
+                            <label for="coding">Coding</label>
+                        </div>
+                        <div class="option">
+                            <input type="checkbox" id="desain"
+                                   name="bidang" value="Desain" />
+                            <label for="desain">Desain Grafis</label>
+                        </div>
+                        <div class="option">
+                            <input type="checkbox" id="video"
+                                   name="bidang" value="Video" />
+                            <label for="video">Video Kreatif</label>
+                        </div>
+                        <div class="option">
+                            <input type="checkbox" id="essay"
+                                   name="bidang" value="Essay" />
+                            <label for="essay">Esai</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">Kategori Peserta</td>
+                    <td>
+                        <div class="option">
+                            <input type="radio" id="mahasiswa"
+                                   name="peserta" value="Mahasiswa" />
+                            <label for="mahasiswa">Mahasiswa</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" id="umum"
+                                   name="peserta" value="Umum" />
+                            <label for="umum">Umum</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label top">
+                        <label for="deskripsi">Deskripsi Karya</label>
+                    </td>
+                    <td>
+                        <textarea id="deskripsi" name="deskripsi"
+                                  rows="5" cols="30"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label top">
+                        <label for="alasan">Motivasi Mengikuti Lomba</label>
+                    </td>
+                    <td>
+                        <textarea id="alasan" name="alasan"
+                                  rows="4" cols="30"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+                        <label for="filekarya">Unggah File Karya</label>
+                    </td>
+                    <td>
+                        <input type="file" id="filekarya"
+                               name="filekarya"
+                               accept="application/pdf, image/jpeg, image/png" />
+                        <p class="hint">Format yang didukung: PDF, JPG, dan PNG.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="submit-cell">
+                        <input type="submit" name="daftar"
+                               value="Daftar Sekarang" />
+                        <input type="reset" value="Reset Formulir" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        <p class="footer">Pastikan data yang dimasukkan sudah benar.</p>
+    </div>
+</body>
+</html>
